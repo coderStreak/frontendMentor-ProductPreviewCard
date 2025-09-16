@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.productCard{
+    margin: 5rem 1rem;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+}
+
+.productIMG{
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.productDetails{
+    padding: 2rem;
+}
+
+.productDetails .item{
+    letter-spacing: 0.5rem;
+    color: hsl(228, 12%, 48%);
+    margin: 0 0 1.5rem 0;
+}
+
+.productDetails h1{
+    font-size: 2.2rem;
+    margin: 0 0 1.5rem 0;
+}
+
+.productDetails .info{
+    color: hsl(228, 12%, 48%);
+    margin: 0 0 1.5rem 0;
+}
+
+.productDetails .price{
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem 0;
+}
+
+.productDetails .price .discPrice{
+    font-size: 2rem;
+    font-weight: bold;
+    color: hsl(158, 36%, 37%);
+    margin: 0 1rem 0 0;
+}
+
+.productDetails .price .ogPrice{
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+.productDetails button{
+    width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 3rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.productDetails button img{
+    height: 35%;
+    margin: 0 1rem 0 0;
+}
+
+.productDetails button p{
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
